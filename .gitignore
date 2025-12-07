@@ -1,48 +1,29 @@
-# Python
+# Helper scripts (not part of main analysis)
+add_*.py
+fix_*.py
+clean_*.py
+create_*.py
+debug_*.py
+restore_*.py
+show_*.py
+update_*.py
+find_*.py
+
+# Data files (too large for GitHub)
+data/
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+*.pyc
+*.pyo
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# macOS
+.DS_Store
 
-# Data files
-data/*.csv
-data/*.json
-data/*.xlsx
-!data/.gitkeep
-
-# Models
-models/*.pkl
-models/*.joblib
-!models/.gitkeep
-
-# IDE
+# IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
